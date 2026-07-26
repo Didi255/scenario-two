@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  app:
+    image: dihiniy/scenario-two:latest
+    container_name: scenario-two-app
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
